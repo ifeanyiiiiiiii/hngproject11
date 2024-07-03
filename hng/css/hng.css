@@ -1,0 +1,236 @@
+.body{
+    height: max-content;
+    padding-left: 25px;
+    --tw-bg-opacity: 1;
+    background-color: rgba(31, 41, 55, var(--tw-bg-opacity));
+    margin-top: 25px;
+   
+}
+.sections{
+    display: flex;
+    justify-content: space-around;
+    padding-right: 25px;
+    padding-top: 10px;
+}
+
+.sections > a:hover{
+    color: rgba(31, 41, 55, var(--tw-bg-opacity));
+}
+
+.sections > a{
+    margin-left: 10px;
+    color: white;
+    font-weight: 700;
+}
+
+.highlight1{
+    border-radius: 25px;
+    display: flex;  
+    font-size: small;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: grey;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+.highlight2{
+    background-color: grey;
+    padding: 10px;
+    color: rgba(31, 41, 55, var(--tw-bg-opacity));
+    border-radius: 25px;
+    border-color: rgba(31, 41, 55, var(--tw-bg-opacity));
+    border-style: solid;
+    border-width: 2px;
+    margin-left: 25px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.highlight2:hover{
+    background-color: rgba(31, 41, 55, var(--tw-bg-opacity));
+    border-color: gray;
+    color: white;
+}
+
+.firstBox{
+    display: block;
+    margin-top: 35px;
+    margin-bottom: 45px;
+}
+
+.hngStory{
+    width: 70%;
+    color: white;
+}
+
+.hngStory > p{
+    flex-wrap: wrap;
+    color: white;
+
+}
+.secondBox{
+    display: block;
+    margin-top: 35px;
+}
+
+.techGoals{
+    width: 45%;
+    flex-wrap: wrap;
+    color: white;
+}
+
+.content2 > p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: white;
+}
+
+.content2 >h1{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: white;
+}
+
+.yearsGoal{
+    flex-wrap: wrap;
+    color: white;
+}
+
+.shortTerm{
+    color: white;
+}
+
+.content1{
+    color:white;
+    padding-left: 10px;
+    margin-top: 25px;
+    display: block;
+}
+.footer{
+    color: rgba(31, 41, 55, var(--tw-bg-opacity));
+    display: inline-flex;
+    height: max-content;
+    width: 100%;
+    background-color: whitesmoke;
+    margin-top: 45px;
+    margin-bottom: 25px;
+    margin-left: 15px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-weight: 700;
+}
+.name{
+    font-size: 23px;
+}
+.front{
+    font-size: 80px;
+    font-weight: 900;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+  
+  [class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+}
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+
+.responsive {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+}
+
+.head {
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.wavy-line {
+    margin-top: 15px;
+    border: 1px solid #ffffff;
+    width: 63%;
+    margin-left: 1.5%;
+}
+
+.wavy-line-x {
+    margin-top: 25px;
+    border: 1px solid #ffffff;
+    width: 63%;
+    margin-left: 33%;
+}
+
+.wavy-line-y {
+    border: 1px solid #ffffff;
+    width: 63%;
+    margin-left: 1.5%;
+}
+
+.wavy-line-z {
+    margin-top: 25px;
+    border: 1px solid #ffffff;
+    width: 63%;
+    margin-left: 33%;
+}
+
+.thanks {
+    display: flex;
+    justify-content: center;
+    font-weight: 900;
+    font-style: normal;
+    padding: 25px;
+    font-size: 23px;
+    color: #ffffff;
+    background-color: none;
+
+}
+
+
+
+
